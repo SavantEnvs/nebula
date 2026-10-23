@@ -1,0 +1,1 @@
+CREATE SPACE IF NOT EXISTS basketballplayer(partition_num=15, replica_factor=1, vid_type=FIXED_STRING(30));

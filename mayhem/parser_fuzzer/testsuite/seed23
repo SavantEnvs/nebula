@@ -1,0 +1,1 @@
+FIND ALL PATH WITH PROP FROM "Tim" TO "Tony", "Manu" OVER follow, serve REVERSELY UPTO 3 STEPS | LIMIT 10;

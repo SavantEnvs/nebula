@@ -1,0 +1,1 @@
+FETCH PROP ON follow "Tim"->"Tony"@0 YIELD properties(edge);

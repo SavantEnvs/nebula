@@ -1,0 +1,1 @@
+LOOKUP ON player WHERE player.name == "Tim" AND player.age >= 30 YIELD player.name AS n, id(vertex) AS vid;

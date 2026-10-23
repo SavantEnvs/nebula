@@ -1,0 +1,1 @@
+MATCH p = (a:player)-[:follow]->(b)<-[:serve]-(c) WITH a, count(b) AS cnt WHERE cnt > 1 RETURN a, cnt;

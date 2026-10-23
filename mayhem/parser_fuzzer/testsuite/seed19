@@ -1,0 +1,1 @@
+MATCH (v:player{name: "Tim"})-[e:follow*1..3]->(d:player) WHERE d.player.age > 30 RETURN v.player.name, e, d ORDER BY d.player.age DESC SKIP 1 LIMIT 5;

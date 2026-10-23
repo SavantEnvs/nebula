@@ -1,0 +1,1 @@
+FETCH PROP ON player "Tim", "Tony" YIELD properties(vertex).name, properties(vertex).age;

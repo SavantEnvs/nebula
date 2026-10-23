@@ -1,0 +1,1 @@
+YIELD [1, 2, 3][1], {a: 1, b: "x"}.a, NULL IS NULL, 5 NOT IN [1, 2], "a" STARTS WITH "a", ST_Point(1.0, 2.0), ST_GeogFromText("POINT(3 8)");

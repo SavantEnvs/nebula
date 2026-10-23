@@ -1,0 +1,1 @@
+CREATE USER IF NOT EXISTS u1 WITH PASSWORD "pw"; GRANT ROLE ADMIN ON basketballplayer TO u1; SHOW ROLES IN basketballplayer;

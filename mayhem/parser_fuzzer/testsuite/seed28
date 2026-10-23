@@ -1,0 +1,1 @@
+$var = GO FROM "Tim" OVER follow YIELD follow._dst AS id; GO FROM $var.id OVER follow YIELD follow._dst;

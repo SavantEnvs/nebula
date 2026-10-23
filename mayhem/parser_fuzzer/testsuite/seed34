@@ -1,0 +1,1 @@
+GO FROM "a" OVER e WHERE (e.x == 1 OR e.y != 2) AND !(e.z <= 3) XOR e.w >= 4 YIELD e.a / 2 % 3 - 1 AS v, e.b & 1 | 2 ^ 3

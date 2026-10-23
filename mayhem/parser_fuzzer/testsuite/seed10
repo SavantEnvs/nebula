@@ -1,0 +1,1 @@
+UPSERT EDGE ON follow "Tim"->"Tony"@0 SET degree = 99;

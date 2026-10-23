@@ -1,0 +1,1 @@
+MATCH (v) WHERE id(v) IN ["Tim", "Tony"] OPTIONAL MATCH (v)-->(w) RETURN v, collect(w) AS ws, [x IN range(1, 5) WHERE x % 2 == 0 | x * x] AS sq;

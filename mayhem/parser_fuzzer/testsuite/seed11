@@ -1,0 +1,1 @@
+DELETE VERTEX "Tim", "Tony" WITH EDGE;
