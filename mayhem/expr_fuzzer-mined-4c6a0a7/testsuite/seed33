@@ -1,0 +1,1 @@
+EXPLAIN FORMAT="dot" GO FROM "Tim" OVER follow YIELD follow._dst; PROFILE MATCH (v) RETURN count(*);

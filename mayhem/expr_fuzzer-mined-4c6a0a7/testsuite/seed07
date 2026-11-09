@@ -1,0 +1,1 @@
+INSERT VERTEX player(name, age) VALUES "Tim":("Tim Duncan", 42), "Tony":("Tony Parker", 36);

@@ -1,0 +1,1 @@
+ALTER TAG player ADD (height int), CHANGE (age int64), DROP (score);

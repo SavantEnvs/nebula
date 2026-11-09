@@ -1,0 +1,11 @@
+# seed-from: https://app.mayhem.security/savantenvs/nebula/parser_fuzzer
+project: savantenvs/nebula
+target: expr_fuzzer-mined-4c6a0a7
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/expr_fuzzer-mined-4c6a0a7/testsuite
+cmds:
+  - cmd: /mayhem/expr_fuzzer
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/src/parser/test/fuzzing/nebula.dict

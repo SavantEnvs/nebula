@@ -1,0 +1,1 @@
+CREATE EDGE IF NOT EXISTS follow(degree int, since TIMESTAMP DEFAULT now());

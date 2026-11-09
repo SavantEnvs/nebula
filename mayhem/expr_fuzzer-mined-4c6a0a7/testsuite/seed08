@@ -1,0 +1,1 @@
+INSERT EDGE follow(degree) VALUES "Tim"->"Tony"@0:(95), "Tony"->"Tim":(90);
