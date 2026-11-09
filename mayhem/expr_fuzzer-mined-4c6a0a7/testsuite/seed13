@@ -1,0 +1,1 @@
+GO 2 STEPS FROM "Tim" OVER follow WHERE follow.degree > 90 YIELD $$.player.name AS name, follow._dst AS dst | ORDER BY $-.name DESC | LIMIT 3;
