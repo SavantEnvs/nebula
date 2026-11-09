@@ -1,0 +1,1 @@
+YIELD date("2024-11-11"), toInteger("12"), toFloat(3)

@@ -1,0 +1,1 @@
+GO FROM "Tim" OVER follow YIELD follow._dst AS id | GO FROM $-.id OVER follow YIELD $-.id AS src, follow._dst AS dst UNION GO FROM "Tony" OVER follow YIELD follow._src, follow._dst;

@@ -1,0 +1,1 @@
+YIELD size("abc") + length("de"), lower("AbC"), substr("abcdef", 1, 3)

@@ -1,0 +1,10 @@
+project: savantenvs/nebula
+target: expr_eval_fuzzer-mined-b4f83eb
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/expr_eval_fuzzer-mined-b4f83eb/testsuite
+cmds:
+  - cmd: /mayhem/expr_eval_fuzzer
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/src/parser/test/fuzzing/nebula.dict
